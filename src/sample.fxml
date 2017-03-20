@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="1032.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ASAPModel.Controller">
+   <children>
+      <Button layoutX="52.0" layoutY="140.0" mnemonicParsing="false" onAction="#storeData" prefHeight="14.0" prefWidth="64.0" text="Store" />
+      <Button layoutX="52.0" layoutY="75.0" mnemonicParsing="false" onAction="#generateData" text="Generate" />
+      <Button layoutX="52.0" layoutY="105.0" mnemonicParsing="false" onAction="#calculateModel" text="Calculate" />
+      <TextArea fx:id="textBox" layoutX="129.0" layoutY="7.0" prefHeight="529.0" prefWidth="867.0" />
+   </children>
+</Pane>
